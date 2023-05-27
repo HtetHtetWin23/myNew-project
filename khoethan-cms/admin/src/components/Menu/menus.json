@@ -1,0 +1,151 @@
+{
+    "menu":[
+        {
+            "key":"1",
+            "name": "ဒိုင်ခွက်",
+            "icon": "dashboard",
+            "path": "/"
+        },
+        {
+            "key":"2",
+            "name": "အကောင့်သစ်ထည့်ရန်",
+            "icon": "user-add",
+            "path": "/accountcreate"
+        },
+        {
+            "key":"3",
+            "name": "ကျန်းမာရေး",
+            "icon": "plus-circle",
+            "path": "/",
+            "children":[
+        {
+            "key" : "1",
+            "name" : "ကျေးလက်ဆေးပေးခန်း",
+            "icon" : "plus-circle",
+            "path" : "/clinic"
+        },
+        {
+            "key":"2",
+            "name": "လူမှုကူညီရေးအသင်း",
+            "icon": "user",
+            "path": "/societyMember"
+        }]},
+        {
+            "key":"4",
+            "name": "ပညာရေး",
+            "icon": "book",
+            "path": "/",
+            "children":[
+        {
+            "key" : "1",
+            "name" : "စာသင်ကျောင်း",
+            "icon" : "bank",
+            "path" : "/school"
+        },
+        {
+            "key":"2",
+            "name": "ကျောင်းသားစာရင်း",
+            "icon": "table",
+            "path": "/studentList"
+        }]},
+        {
+            "key":"5",
+            "name": "စီးပွားရေး",
+            "icon": "shopping-cart",
+            "path": "/",
+            "children":[
+        {
+            "key":"1",
+            "name": "ကုန်ပစ္စည်းများ",
+            "icon": "shopping-cart",
+            "path": "/product"
+        },
+        {
+            "key" : "2",
+            "name" : "ကုန်ပစ္စည်းအမျိုးအစား",
+            "icon" : "apple",
+            "path" : "/productType"
+        }]},
+        {
+            "key":"6",
+            "name": "အုပ်ချုပ်ရေး",
+            "icon": "usergroup-add",
+            "path": "/",
+            "children":[
+            
+        {
+            "key":"1",
+            "name": "ရာထူး",
+            "icon": "file-ppt",
+            "path": "/position"
+        },
+        {
+            "key":"2",
+            "name":"အုပ်ချုပ်ရေး",
+            "icon": "usergroup-add",
+            "path": "/committee"
+        }]},
+        
+       
+        
+        {
+            "key":"7",
+            "name": "အခြားကဏ္ဍ",
+            "icon": "sound",
+            "path": "/",
+            "children":[
+        {
+            "key":"1",
+            "name": "သတင်း",
+            "icon": "read",
+            "path": "/post"
+        },
+       
+        {
+            "key":"2",
+            "name": "ကြေညာချက်များ",
+            "icon": "sound",
+            "path": "/announce"
+        }]},
+        {
+            "key":"8",
+            "name": "ဘာသာရေး",
+            "icon": "home",
+            "path": "/",
+            "children":[
+        {
+            "key":"1",
+            "name": "ဘုန်းကြီးကျောင်းများ",
+            "icon": "home",
+            "path": "/monestry"
+        },
+       
+        {
+            "key":"2",
+            "name": "စေတီတော်များ",
+            "icon": "home",
+            "path": "/pagoda"
+        }]},
+       
+        
+        {
+            "key":"9",
+            "name": "ဆက်သွယ်ချက်များ",
+            "icon": "phone",
+            "path": "/contact"
+        },
+        {
+            "key":"10",
+            "name": "ပွဲတော်များ",
+            "icon": "home",
+            "path": "/festival"
+        }
+            
+            
+            
+        
+    ]   
+}
+
+        
+    
