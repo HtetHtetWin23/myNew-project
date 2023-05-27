@@ -1,0 +1,98 @@
+.clinic-card img{
+    width: 450px;
+    height: 340px;
+    align-items:center;
+}
+.health{
+    margin : 0 50px;
+}
+
+.head{
+    
+    font-size: 1.6em;
+    padding-top: 30px;
+    font-weight: bold;
+   
+
+}
+.title{
+   
+    font-weight: bold;
+    font-size: 1.2em;
+   
+}
+.txt{
+    font-weight: bold;
+    font-size: 1.4em;
+ 
+   
+}
+
+.tx{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: justify;
+    padding-left:50px;
+}
+.tb{
+    width: 600px;
+    height : 100px;
+    margin-left: 60px;
+    border: 1px solid black;
+   
+   
+}
+ th, td {
+    border: 1px solid black;
+    margin-top:10px;
+    font-size: 1.2em;
+    width: 100px;
+    font-weight: bold;
+    /* height: 20px; */
+
+  }
+
+  .wd {
+      width: 500px;
+  }
+ 
+  .pad{
+    padding-left : 50px;
+    /* text-align: left; */
+    text-align:justify;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+@media (max-width : 600px){
+    .clinic-card img{
+        width: 100%;
+        height: 250px;
+        margin:0 auto; 
+        
+    }
+    .head{
+    
+        font-size: 1.4em;
+        padding-top: 25px;
+        font-weight: bold;  
+    
+    }
+    .txt{
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    .tx{
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align: justify;
+        padding-left:30px;
+    }
+    .pad{
+        padding-left : 20px;
+        text-align:justify;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+   
+    
+}

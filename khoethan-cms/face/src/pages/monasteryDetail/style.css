@@ -1,0 +1,80 @@
+.my-card img{
+    width: 500px;
+    height: 400px;
+   
+    /* border: 3px solid rgb(22, 46, 153); */
+    align-items:center;
+}
+/* .cards {
+    margin-left:30px;
+} */
+.details{
+    padding-left:60px;
+    text-align: justify;
+    font-size: 1.2em;
+    font-weight:bold;
+}
+
+.images{
+    width:350px;
+    height:250px;
+    float: left;
+    padding-left:5px;
+
+    
+}
+.pagoda-detail{
+   
+    font-weight: bold;
+    color:black;
+    font-size:1.2em;
+    padding-left:0px;
+}
+.pagoda_name{
+    font-size :1.4em;
+   
+    color:rgb(22, 46, 153);
+    font-weight: bold;
+    
+}
+.pagh{
+    float:left;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left:17%;
+}
+
+
+@media(max-width : 600px){
+    .my-card img{
+        width: 320px;
+        height: 270px;
+        margin:0 auto;
+       
+       
+        /* border: 3px solid rgb(22, 46, 153); */
+        /* align-items:center; */
+    }
+    /* .cards {
+        margin-left:0%;
+    } */
+    .details{
+       
+        text-align: justify;
+        font-size: 1.2em;
+        font-weight:bold;
+        /* margin-left:0%; */
+        margin-left:0% ;
+    }
+    .monastery-head{
+    
+        font-size: 1.2em;
+       
+        font-weight: bold; 
+        text-align:justify;
+      
+        
+    
+    }
+
+}

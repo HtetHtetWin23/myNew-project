@@ -1,0 +1,11 @@
+.description{
+    padding-left:20px;
+    text-align:justify;
+}
+.icon-left{
+    float: left;
+    font-size:25px;
+    color:black;
+    margin-left:30px;
+    font-weight:bold;
+}

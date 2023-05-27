@@ -1,0 +1,46 @@
+.committee-card img{
+    width: 200px;
+    height: 180px;
+   
+    align-items:center;
+    border-radius : 10em;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.back {
+    background-color: #C8DDDB;
+    text-align: justify;
+    font-size: 15px;
+   
+    margin-left: 1.8rem;
+}
+
+.justify{
+    padding-left: 1rem;
+}
+
+.body {
+    background-color: #B4C7D6;
+    
+}
+@media (max-width : 600px){
+    .committee-card img{
+        width: 200px;
+        height: 180px;
+       
+        /* align-items:center; */
+        border-radius : 10em;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        /* margin:0 auto; */
+    }
+    .back {
+        background-color: #C8DDDB;
+        text-align: justify;
+        font-size: 15px;
+       
+        margin-left: 4.5rem;
+    }
+
+}

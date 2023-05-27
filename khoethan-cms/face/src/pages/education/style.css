@@ -1,0 +1,219 @@
+/* .school{
+    margin : 0 20px;
+}
+.school1{
+    margin-left:1px;
+} */
+.school-card img{
+    width: 360px;
+    height: 250px;
+    align-items:center;
+}
+.school-img{
+    width: 100%;
+    height: 420px;
+} 
+
+.edu-img {
+    width:100%;
+    height:420px;
+}
+.edu-card img{
+    width:450px;
+    height: 340px;
+} 
+.education-card{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+    float: left;
+}
+.education-card img{
+    width: 250px;
+    height: 190px;
+    /* border: 3px solid rgb(22, 46, 153); */
+    align-items:center;
+    /* border-radius : 1.5rem; */
+}
+.topic{
+    
+    font-size: 1.3em;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-left:0px;
+    color: rgb(22, 46, 153);
+  
+
+}
+
+h2 {
+    color: rgb(22, 46, 153);
+}
+/* .table{
+    width: 100%;
+    height : 100px;
+    padding-left: 10px;
+    margin-top:30px;
+    padding-right:3px;
+
+   
+   
+}
+ th, td {
+    border: 1px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+   
+  } */
+h2{
+    font-weight: bold;
+    font-size: 1.9em;
+}
+.left{
+    float :left;
+}
+.edu-description{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align:justify;
+    padding-left:20px;
+}
+/* .activity img{
+    width: 570px;
+    height: 350px;
+    padding-left : 90px;
+
+}
+.image-card{
+    padding-top : 60px;
+} */
+.tit{
+    padding-top : 40px;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.pag{
+    padding-left : 20px;
+    /* text-align: left; */
+    text-align:justify;
+    font-weight: bold;
+    /* line-height: 3px; */
+    font-size: 1.3em; 
+}
+
+/*zin table style start*/
+td,th{
+    padding: 0.5rem;
+}
+th{
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.table-heading{
+    border-bottom: 2px solid rgb(15, 130, 197);
+}
+.sectionHeader{
+    color: rgb(12, 64, 206);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+/* @media(max-width: 32rem){
+    .table-heading{
+        display: none;
+        
+    }
+    .sectionHeader{
+        color: rgb(12, 64, 206);
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .table-content{
+        display: block;
+        font-size: 0.9em;
+    }
+    .table-row{
+        margin: 0.25rem 1rem;
+        display: block;
+        border-bottom: 2px solid rgb(12, 64, 206);
+    }
+    .table-content ::before{
+        content: attr(data-heading);
+        display: inline-block;
+        width: 5rem;
+        margin-right: 0.5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+} */
+/*zin table style end*/
+
+
+@media(max-width: 600px){
+    .school-img{
+        width: 100%;
+        height: 230px;
+    }
+    .pag{
+        margin-left : 3%;
+        text-align:justify;
+        font-weight: bold;
+        font-size: 1.2em; 
+        margin-top:2%;
+        /* margin-right:2%; */
+    }
+    .edu-description{
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align:justify;
+        padding-left:15px;
+    }
+    .school-card img{
+        width: 350px;
+        height: 250px;
+        align-items:center;
+        margin-bottom : 10px;
+    }
+    .edu-card img{
+        width:350px;
+        height: 280px;
+    } 
+     .table-heading{
+        display: none;
+        
+    }
+    .sectionHeader{
+        color: rgb(12, 64, 206);
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .sectionHeader{
+        color: rgb(12, 64, 206);
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    .table-content{
+        /* display: block; */
+        font-size: 0.9em;
+    }
+    .table-row{
+        margin: 0.25rem 1rem;
+        display: block;
+        border-bottom: 2px solid rgb(12, 64, 206);
+    }
+    /* .table-content ::before{
+        content: attr(data-heading);
+        display: inline-block;
+        width: 5rem;
+        margin-right: 0.5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    */
+    
+}

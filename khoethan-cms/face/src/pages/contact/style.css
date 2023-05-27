@@ -1,0 +1,117 @@
+/* * {
+    box-sizing: border-box;
+  } */
+  .contact{
+   margin-left:17%;
+   
+   
+  }
+  
+  .tophead{
+    font-size: 25px;
+    margin-left:4%;
+    color : rgb(22, 46, 153);
+    padding-top: 20px;
+    font-weight:bold;
+    
+    
+  }
+  
+
+  .row input[type=text] {
+    
+    padding:24px;
+    /* margin-left:2.7%; */
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+  
+  }
+
+  .col-25 label {
+    display: inline;
+    font-size:20px;
+    font-weight:bold;
+   
+  }
+  
+  .subcontact2{
+    border-radius: 5px;
+    background-color: #B4C7D6;
+    color:rgb(20, 20, 20);
+    
+  }
+  .subcontact2 h1{
+    font-size:23px;
+  }
+  .subcontact2 p{
+    font-size: 20px;
+  }
+
+  .click{
+    width:110px;
+    height:40px;
+    font-size:18px;
+    background-color: rgb(22, 46, 153);
+    margin-left:1%;
+    color:white;
+    border-radius:0.8rem;
+    
+
+  }
+  .action{
+  
+   
+    margin-top:15px;
+    background-color: #B4C7D6;
+    width: 100%;
+    
+  }
+  .col-25 {
+    /* padding-left:1%; */
+    /* width: 100%; */
+    font-size:20px;
+    margin-bottom: 2px;
+    width:10%;
+
+  }
+  
+  .col-75 {
+
+    width: 75%;
+    padding-top:2px;
+    
+  
+  }
+  .col-76 {
+   
+    width: 75%;   
+    border-radius: 5px;
+    /* margin-bottom:20px; */
+    border:1px solid black;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  .pag1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    background-color: #B4C7D6;
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media (max-width : 600px){
+    .col-25 {
+      /* padding-left:1%; */
+      /* width: 100%; */
+      font-size:20px;
+      margin-bottom: 2px;
+      width:100%;
+  
+    }
+  }

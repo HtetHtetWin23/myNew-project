@@ -1,0 +1,46 @@
+/* .btn {
+    text-align : center;
+    background-color : rgb(7, 105, 56);
+    color :white;
+    width: 150px;
+    
+} */
+.btnn{
+    
+    padding-top: 450px;
+    padding-left: 80px;
+    padding-right: 50px;
+    float: right;
+   
+
+}
+.post-title{
+    font-weight: bold;
+    font-size:1.3em;
+    color : rgb(22, 46, 153);
+
+   
+ 
+}
+
+.icon{
+    width:200px;
+    height: 150px;
+}
+.btnback{
+    padding-top: 200px;
+    float: right;
+    padding-right: 200px;
+    
+    
+}
+.nn{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+@media (max-width :600px){
+    .image{
+        margin-top : 7px;
+    }
+
+}
