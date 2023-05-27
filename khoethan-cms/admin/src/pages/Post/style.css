@@ -1,0 +1,16 @@
+.news{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.post-image{
+    width:250px;
+    height:200px;
+    float: left;
+    padding-left:15px;
+
+    
+}
+.post-head{
+    font-weight:bold;
+    color:rgb(22, 46, 153);
+}

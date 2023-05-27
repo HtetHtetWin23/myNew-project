@@ -1,0 +1,16 @@
+.contact-detail{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.cnt-desc{
+    color:rgb(22, 46, 153);
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-left:100px;
+    
+}
+.prg{
+   /* font-weight:bold; */
+   font-size:1.2em;
+   padding-left:100px;
+}

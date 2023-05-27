@@ -1,0 +1,25 @@
+.clinic-image{
+    width:350px;
+    height:250px;
+    /* margin-left:200px; */
+}
+.clinic-detail{
+    margin-top:15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left:100px;
+    text-align : justify;
+}
+.header{
+    font-size: 1.5em;
+    font-weight: bold; 
+    margin-left:200px;
+    margin-bottom:30px;
+    color:rgb(22, 46, 153);
+
+}
+.clinic-heading{
+    margin-left:300px;
+    margin-top:50px;
+
+}

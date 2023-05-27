@@ -1,0 +1,29 @@
+.committee-header{
+   
+    margin-left:10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:rgb(22, 46, 153);
+}
+.committee-card img{
+    width: 200px;
+    height: 180px;
+    /* border: 3px solid rgb(22, 46, 153); */
+    align-items:center;
+    border-radius : 10em;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.back {
+    background-color: #C8DDDB;
+    text-align: justify;
+    font-size: 15px;
+    /* font-style: bold; */
+    margin-left: 1.8rem;
+}
+
+.justify{
+    padding-left: 1rem;
+    font-weight: bold;
+    color:black;
+}
