@@ -1,0 +1,62 @@
+ .about-body{
+     margin-bottom: 45%;
+ }
+ .about{
+    font-size: 1.3em;
+    margin: 0 60px;
+} 
+
+
+.map{
+    height: 425px;
+    width: 490px;
+    border:2px solid #B4C7D6;
+    padding-right:30px;
+  
+}
+.letter{
+    width: 50%;
+    float: left;
+}
+.village-map{
+    width: 425px;
+    /* margin-left: 20px; */
+    float: left;
+    padding-top : 85px;
+}
+.pp {
+   text-align:justify;
+   font-weight: bold;
+   /* font-size: 1.2em; */
+   font-size: 1.4em;
+   line-height: 25px;
+   /* margin-left:20px;  */
+}
+
+.p{
+    margin-left: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+.body{
+    background-color: #B4C7D6;    
+}
+.pp {
+    text-align:justify;
+    font-weight: bold;
+    /* font-size: 1.2em; */
+    font-size: 1.07em;
+    line-height: 25px;
+    /* margin-left:20px;  */
+ }
+ .letter{
+    width: 100%;
+    float: left;
+}
+.village-map{
+    width: 100%;
+    /* margin-left: 20px; */
+    float: left;
+    padding-top : 85px;
+}
+}

@@ -1,0 +1,128 @@
+/* @media only screen and (max-width: 600px) { */
+ 
+  /* .container2{
+    width: 100%;
+    height:320px;
+    background-color:rgb(22, 46, 153);
+    color:black;
+    text-align: left;
+  }
+  
+  .container{
+      width: 100%;
+      height:280px;
+      background-color:rgb(22, 46, 153);
+      color:black;
+    }
+  
+    .a{
+      float: left;
+    }
+
+    .container1{
+      width: 100%;
+      height:50px;
+      background-color:rgb(22, 46, 153);
+      color:black;
+    } 
+    
+    .span3{
+      margin-left: 80px;
+      float:left;
+      padding:60px;
+    }
+  
+    .span4{
+      margin-left: 120px;
+      float:left;
+      padding:60px;
+    }
+   
+    ul{
+      list-style-type:none;    
+      }
+      li,li a{
+        color:white;
+        font-weight: bold;
+      }
+  
+      li {
+          padding-bottom: 10px;
+      }
+    
+    h1{
+      color:white;
+    }
+  
+    .ll {
+        padding-right: 80px;
+        padding-left: 120px;
+        font-weight: bold;
+    }
+  
+    .rr {
+        padding-left: 20px;
+        font-weight: bold;   
+    }
+  
+    .left {
+      float: left;
+  }                    
+  
+  .right{
+    float: right;
+  }                      
+  
+    .fa {
+      font-size:18px
+    }
+  
+    hr{
+      background-color: white;
+  
+    }
+      
+    .center {
+      text-align: center;
+      color: white;
+      padding-top: 13px;
+    } */
+
+
+
+    /* zin footer start */
+    h1{
+      color:white;
+      font-weight:bold;
+    }
+
+      .four-footer{
+        background-color:rgb(22, 46, 153);
+        padding: 10px 30px 20px 30px;
+      }
+      .columns{
+        display: flex;
+        flex-wrap: wrap;
+        transition: 1s;
+        justify-content: space-around;
+        color : white;
+        font-weight:bold;
+      }
+      .each-column{
+        flex-basis: 13em;
+        flex-shrink: 0;
+        font-size: 1em;
+        padding-top: 1em;
+        padding-left: 1em;
+        text-align: center;
+        color: white;
+        float: left;
+      }
+      .each-column li{
+        line-height: 1.5em;
+        list-style: none;
+        text-align: justify;
+        padding: 3px 20px 5px 20px;
+      }
+      
+    /* zin footer end */

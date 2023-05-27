@@ -1,0 +1,181 @@
+@import '~antd/dist/antd.css';
+
+
+
+a, a:visited , a:hover {
+  color: #fff;
+  font-size: 15px;
+}
+
+.header {
+  background-color: rgb(22, 46, 153);
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  width: 100%;
+  z-index: 1;
+  /* height: 60px; */
+  /* position: fixed; */
+
+  
+}
+
+.header ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(22, 46, 153);
+  /* height: 15%; */
+}
+
+.header li {
+  display: block;
+  padding:15px 15px;
+  padding-top:15px;
+  /* border-right: 1px solid #f4f4f4; */
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: bold;
+  height:15%;
+}
+
+.header li:hover,
+.header .menu-btn:hover {
+  background-color: rgb(56, 140, 209);
+  height:15%;
+}
+/* .aa{
+  width:50px;
+  height:35px;
+  margin-bottom:10px;
+  margin-top:5px;
+  
+} */
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2.1em;
+  font-weight: bold;
+  padding-left: 20px ;
+  text-decoration: none;
+  /* margin-bottom: 1rem; */
+  /* padding-bottom: 1rem; */
+}
+
+.logo img {
+  width:50px;
+  height:50px;
+}
+
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  min-height: 0;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 470px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+.religious-menu{
+  background-color : rgb(22, 46, 153);
+  color : white;
+  font-weight:bold;
+}
+.menu-item{
+  background-color : rgb(22, 46, 153);
+ 
+  width:140px;
+  color:black;
+  font-weight:bold;
+  line-height: 30px;
+  padding-left:10px;
+
+}
+
+
+ @media (min-width : 48em){
+ 
+  .header li {
+    float: left;
+    
+    
+  }
+  .header li a {
+    padding: 15px 15px;
+    
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+ }

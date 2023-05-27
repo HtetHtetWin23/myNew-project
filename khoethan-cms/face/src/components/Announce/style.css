@@ -1,0 +1,72 @@
+.announce{
+    margin-left: 1rem;
+   
+}
+
+
+
+/* .announce-card{
+    margin-left: 1.8rem;
+    width: 270px;
+    height: 320px;
+    align-items:center;   
+} */
+.announce-card{
+    width: 260px;
+    height: 300px;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 3%;
+    align-items: center;
+    float: left;
+    margin-bottom: 46%;
+}
+
+.b{
+    background-color:white;
+    text-align: left;
+    font-weight:bold;
+    font-size: 1.1em;
+    
+}
+
+
+
+.button{
+    width:130px;
+    height : 35px;
+    text-align : center;
+    color : rgb(22, 46, 153);
+    font-weight:bold;
+    border-radius : 1em;
+    background-color:white; 
+}
+
+.buttonn{
+    width:130px;
+    height : 35px;
+    text-align : center;
+    color : rgb(22, 46, 153);
+    font-weight:bold;
+    border-radius : 1em;
+    background-color:white;
+    margin-top: 65px; 
+    margin-bottom: 25px; 
+}
+
+.sound{
+    font-size:40px;
+    padding-left:20px;
+    padding-bottom:18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .body{
+        background-color: #B4C7D6;    
+    }
+    
+
+ }
+
+   
+
