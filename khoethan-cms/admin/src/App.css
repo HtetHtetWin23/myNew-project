@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .header{
+  padding: 6px;
+  background-color: rgb(22, 46, 153);
+  display: inline;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color:white;
+  font-size:1.5em;
+  
+} */
+
+.btn{
+  padding: 7px;
+  background-color: rgb(22, 46, 153);
+  display: inline;
+  margin: 15px;
+  text-align: center;
+  border-radius: 5px;
+  color:white;
+  width: 75px;
+  height: 35px
+
+}
+
+/* .btn a{
+  color: #fff;
+} */
+
+#table{
+  border-collapse: separate;
+  border-spacing : 0;
+  margin-left:150px;
+}
+#table tr th,
+#table tr td{
+  border-right :  1px solid #bbb;
+  border-bottom : 1px solid #bbb;
+  box-shadow : 2px 2px 1px #e5dfcc;
+}
+
+#table tr th:first-child,
+#table tr td:first-child{
+  border-left :  1px solid #bbb;
+ 
+}
+#table tr th
+{
+  border-top :  1px solid #bbb;
+ 
+}
+#table tr:first-child,th:first-child{
+  border-top-left-radius :6px;
+ 
+}
+#table tr:first-child,th:last-child{
+  border-top-right-radius :6px;
+ 
+}
+#table tr:last-child,td:first-child{
+  border-bottom-left-radius :6px;
+ 
+}
+#table tr:last-child,td:first-child{
+  border-bottom-right-radius :6px;
+ 
+}
+#body{
+  margin:30px;
+  background : #ECEAE3;
+  font-family : 'MULI', Serif;
+}
+th,td{
+  padding : 8px 20px;
+}
+th{
+  background: rgb(22, 46, 153);
+  color : white;
+}
+td{
+  background : #EFF1F6;
+}
